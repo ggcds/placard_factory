@@ -15,7 +15,7 @@ A aplicação remove o fundo das imagens dos palestrantes, insere-as em um backg
 ├── datasets/
 │   └── government_positions.csv  # CSV com informações de palestrantes
 ├── output/                 # Onde os placards gerados serão salvos
-├── placard_generator.py    # Script principal
+├── placard_factory.py    # Script principal
 └── README.md               # Este arquivo
 ```
 
@@ -35,8 +35,8 @@ A aplicação remove o fundo das imagens dos palestrantes, insere-as em um backg
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/placard-generator.git
-cd placard-generator
+git clone https://github.com/seu-usuario/placard_factory.git
+cd placard-factory
 ```
 
 2. Instale as dependências:
@@ -50,7 +50,7 @@ pip install pandas pillow rembg
 4. Execute o script:
 
 ```bash
-python placard_generator.py
+python placard-factory.py
 ```
 
 5. Os placards gerados estarão disponíveis na pasta `output/`.
